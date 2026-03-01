@@ -1,6 +1,6 @@
 # Greedy Coin Change Calulator
 
-This is a project that showcases a functional greedy coin change calculator. It is able to efficiently determine the minimum number of coins that are neceesary for any amount given, using the largest denominations of coins available. It showcases how to manage real-world input data and to build structures for business logic that are clear and correct.
+This is a project that showcases a functional greedy coin change calculator. It is able to efficiently determine the minimum number of coins that are necessary for any amount given, using the largest denominations of coins available. It showcases how to manage real-world input data and to build structures for business logic that are clear and correct.
 
 This repository also is able to handle edge cases (negative inputs, wrongly sorted values, data in lists or read in as a csv). This is important for showcasing system resiliency and features important when building systems that need to be reliable, especially in the world of financial applications.
 
