@@ -8,6 +8,8 @@ The project also features a full suite of unit tests using the unittest framewor
 
 This is a great project to practice greedy algorithm design, data validation, error handling, and learning to automate testing skills. This is useful for any software development process.
 
+The solution in this repository is my own creation after reading the specs given by the project leader, Ronnie Rahman, on the Manning Live Project for ["Greedy Coin Change Calculator"](https://www.manning.com/liveproject/a-greedy-coin-change-calculator).
+
 ## How to Run
 
 Once the project has been cloned, you can download the versions of the packages used for this project to ensure everything runs correctly (recommended to have a virtual environment set up):
