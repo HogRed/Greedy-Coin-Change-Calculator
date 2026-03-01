@@ -32,3 +32,7 @@ In order to run the unit tests, navigate to the project root and run:
 ```python
 python -m unittest discover tests
 ```
+
+## License
+
+MIT
