@@ -3,15 +3,11 @@ import numpy as np
 import utils
 
 def greedy_coin_change(amt, coin_denom):
-    coin_denom.sort_values(by='denomination', ascending=False)
-    coin_denom = coin_denom.values.tolist()
-    coins_fixed = []
-    for i in coin_denom:
-        coins_fixed.append(i[0])
-    print(coins_fixed)
+    #print(coin_denom)
     
     coin_dict = {}
-    for coin in coins_fixed:
+    
+    for coin in coin_denom:
         if amt == 0:
             break
         
@@ -26,8 +22,9 @@ def greedy_coin_change(amt, coin_denom):
             
 def main():
     coin_list = utils.load_denominations('C:/Users/jtfai/HogRed-a-greedy-coin-change-calculator-lp/data/coin_denominations.csv')
+    coin_list = utils.validate_denominations(coin_list)
     try:
-        test_amounts = greedy_coin_change(7, coin_list)
+        test_amounts = greedy_coin_change(35, coin_list)
         for k,v in test_amounts.items():
             print(f'Coin: {k}, Amount: {v}')
     except Exception as e:
